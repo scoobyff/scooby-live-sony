@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 $get = $_GET['get'];
-$mpdUrl = 'https://a5f60e5467fc4389b2c543a65012d87e.mediatailor.us-east-1.amazonaws.com/v1' . $get;
+$mpdUrl = 'https://a5f60e5467fc4389b2c543a65012d87e.mediatailor.us-east-1.amazonaws.com/v1/' . $get;
 
 // Set headers for fetching remote
 $mpdheads = [

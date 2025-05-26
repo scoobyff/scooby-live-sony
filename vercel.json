@@ -12,5 +12,5 @@
       "dest": "/index.php?get=$1"
     }
   ],
-    "regions": ["pdx1"]
+    "regions": ["sfo1"]
 }

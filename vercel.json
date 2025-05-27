@@ -11,5 +11,5 @@
       "dest": "/index.php?get=$1"
     }
   ],
-  "regions": ["iad1", "dfw1"]
+  "regions": ["iad1"]
 }

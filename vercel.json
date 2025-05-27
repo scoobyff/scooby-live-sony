@@ -1,16 +1,14 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "index.php",
-        "use": "vercel-php"
-      }
-    ],
-    "routes": [
+  "version": 2,
+  "functions": {
+    "index.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
     {
       "src": "/(.*)",
       "dest": "/index.php?get=$1"
     }
-  ],
-    "regions": ["sfo1"]
+  ]
 }

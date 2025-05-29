@@ -1,6 +1,6 @@
 <?php
 $get = $_GET['get'];
-$mpdUrl = 'https://pubads.g.doubleclick.net/ssai/event/' . $get;
+$mpdUrl = 'https://pubads.g.doubleclick.net/' . $get;
 
 $mpdheads = [
   'http' => [

@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 $get = $_GET['get'];
-$mpdUrl = 'https://live.tsports.com/mobile_hls/' . $get;
+$mpdUrl = 'https://pubads.g.doubleclick.net/ssai/event/' . $get;
 
 // Set headers for fetching remote
 $mpdheads = [

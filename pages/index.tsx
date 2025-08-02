@@ -23,9 +23,9 @@ interface Channel {
 }
 
 export default function Home() {
-  const [xtreamUrl, setXtreamUrl] = useState('');
-  const [username, setUsername] = useState('xtream');
-  const [password, setPassword] = useState('xtream@123');
+  const [xtreamUrl, setXtreamUrl] = useState('http://starshare.fun/');
+  const [username, setUsername] = useState('home123');
+  const [password, setPassword] = useState('home123');
   const [categories, setCategories] = useState<Category[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
